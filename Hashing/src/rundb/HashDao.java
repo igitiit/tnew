@@ -15,7 +15,7 @@ public class HashDao {
 	static Connection connect = null;
 	Statement statement = null;
 
-	// constructor for HashDao
+	// constructor for HashDao (by jp)
 	public static Connection getConnection() {
 		// Setup the connection with the DB
 		try {
