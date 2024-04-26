@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:controller="controllers.AdminController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"  prefHeight="340.0" prefWidth="355.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+        <Button layoutX="50.0" layoutY="245.0" mnemonicParsing="false" onAction="#open" text="Show table" />
+	 
+		<Button layoutX="200.0" layoutY="245.0" mnemonicParsing="false" onAction="#close" text="Exit" fx:id="btnClose" />
+ 
+</AnchorPane>
+
+   

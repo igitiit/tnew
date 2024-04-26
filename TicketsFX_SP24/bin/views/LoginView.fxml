@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="340.0" prefWidth="355.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+   <children>
+      <Label fx:id="lblTitle" alignment="TOP_LEFT" layoutX="81.0" layoutY="35.0" prefHeight="22.0" prefWidth="142.0" text="Welcome Login Page" textFill="#4333f2">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="109.0" layoutY="120.0" promptText="Uname:">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="password" layoutX="109.0" layoutY="170.0" promptText="Password:">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </PasswordField>
+      <Button layoutX="152.0" layoutY="261.0" mnemonicParsing="false" onAction="#login" text="LogIn">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblUsername" layoutX="26.0" layoutY="123.0" text="UName:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPassword" layoutX="27.0" layoutY="173.0" text="Pass:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblstatus" layoutX="28.0" layoutY="226.0" prefHeight="17.0" prefWidth="114.0" text="Status" textFill="#d71919" />
+     <!--  <RadioButton fx:id="rb1student" layoutX="11.0" layoutY="50.0" mnemonicParsing="false" onAction="#Login" selected="true" text="Student ">
+         <toggleGroup>
+            <ToggleGroup fx:id="group" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="rb2professor" layoutX="178.0" layoutY="50.0" mnemonicParsing="false" onAction="#Login" text="Professor" toggleGroup="$group" />
+       -->
+   </children>
+</AnchorPane>
